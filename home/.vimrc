@@ -18,23 +18,21 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
 Bundle 'matchit.zip'
 Bundle 'epmatsw/ag.vim'
-Bundle 'jgdavey/vim-railscasts'
 Bundle 'godlygeek/tabular'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'mustache/vim-mustache-handlebars'
 Bundle 'othree/html5.vim'
-Bundle 'guns/vim-clojure-static'
-Bundle 'rizzatti/funcoo.vim'
-Bundle 'rizzatti/dash.vim'
 
 filetype plugin indent on
 syntax on
 
 set shortmess=I
 
+syntax enable
 set t_Co=256
 set background=dark
-colorscheme grb256
+let g:solarized_termcolors=256
+colorscheme solarized
 
 set nu
 
