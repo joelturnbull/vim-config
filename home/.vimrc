@@ -160,3 +160,5 @@ let g:dash_map = {
   \ 'ruby'       : 'rails',
   \ 'javascript' : 'ember'
   \ }
+
+set clipboard=unnamed
