@@ -164,3 +164,5 @@ let g:dash_map = {
 set clipboard=unnamed
 
 set wrap
+
+set relativenumber
